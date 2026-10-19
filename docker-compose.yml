@@ -6,7 +6,7 @@ services:
       MYSQL_DATABASE: todoapp
       MYSQL_ROOT_PASSWORD: password
     ports:
-      - "3307:3306"
+      - "3306:3306"
     volumes:
       - fw-db-data:/var/lib/mysql
 
